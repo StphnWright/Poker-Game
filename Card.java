@@ -9,21 +9,21 @@
  * svw2112
  *******************************************/
 
-public class Card implements Comparable<Card>{
+	public class Card implements Comparable<Card>{
 
 	private static final String[] SUITS = {"Clubs", "Diamonds", "Hearts", "Spades"};
 	private static final String[] RANKS = {"Ace", "2", "3", "4", "5", "6", "7", "8",
 			"9", "10", "Jack", "Queen", "King"};
 	
-    public static final int CLUBS = 1;
-    public static final int DIAMONDS = 2;
-    public static final int HEARTS = 3;
-    public static final int SPADES = 4;
+    	public static final int CLUBS = 1;
+    	public static final int DIAMONDS = 2;
+    	public static final int HEARTS = 3;
+    	public static final int SPADES = 4;
     
-    public static final int ACE = 1;
-    public static final int KING = 13;
-    public static final int QUEEN = 12;
-    public static final int JACK = 11;
+    	public static final int ACE = 1;
+    	public static final int KING = 13;
+    	public static final int QUEEN = 12;
+    	public static final int JACK = 11;
     
 	private int suit; // use integers 1-4 to encode the suit
 	private int rank; // use integers 1-13 to encode the rank
