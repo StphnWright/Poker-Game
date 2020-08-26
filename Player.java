@@ -18,8 +18,8 @@ public class Player {
 	private double bankroll;
 	private double bet;
     
-    // create a player with an initial bankroll of 100
-    public Player(){		
+    	// create a player with an initial bankroll of 100
+    	public Player(){		
 		hand = new ArrayList<>();
 		bankroll = 100.0;   
 	}
@@ -36,22 +36,22 @@ public class Player {
 	}
 
 	// player makes a bet
-    public void bets(double betAmount){        
+    	public void bets(double betAmount){        
         bankroll -= betAmount;	
 	}
 	
-    // adjust bankroll if player wins
-    public void winnings(double winAmount){      
+    	// adjust bankroll if player wins
+    	public void winnings(double winAmount){      
         bankroll += winAmount;        		
 	}
 
 	// return current balance of bankroll
-    public double getBankroll(){       
+    	public double getBankroll(){       
         return bankroll;		
 	}
 
-    // return current hand
-    public ArrayList<Card> getHand(){
+    	// return current hand
+ 	public ArrayList<Card> getHand(){
         return hand;       
     }
 }
