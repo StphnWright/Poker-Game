@@ -9,7 +9,7 @@
  * svw2112
  *******************************************/
 
-public class Deck {
+	public class Deck {
 
 	private Card[] cards;
 	private int top; // the index of the top of the deck
